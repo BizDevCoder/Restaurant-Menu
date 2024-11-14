@@ -34,25 +34,26 @@
     column-gap: 42px;
 }
 .header .navbar a{
-    font-size: 16px;
-    font-weight: 550;
+    font-size: 14px;
+    font-weight: 500;
     color: #5f88a3;
     text-transform: uppercase;
 
 }
 
 .navbar a:hover{
-    color: #1a5ca3;
+    color: #034c9b;
 }
 
 .btn{
     background-color: #f3223b;
     color: #ffffff;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600; 
     outline: none;
     border: none;
-    padding: 12px 32px;
+    padding: 12px 20px;
 }
 
 .btn:hover {
@@ -60,25 +61,52 @@
 
 }
 
-.back-them{
-    display: flex;
-    height: 520px;
-    width: auto;
-    align-items: center;
-    justify-content: center;
+.hero-section{
+    height: 75vh;
+    width: 100%;
     background-color: #1a5ca3;
+    position: relative;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
-.back-them .bg-image img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 85px;
-}
-.back-them .nav-left{
-    display: flex;
-    align-items: center;
+.hero-section .hero-img{
     position: absolute;
-    color: #ffffff;
-    
+    bottom: 0;
+    right: 0;
+}
+
+.hero-section .hero-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    position: relative;
+}
+
+.hero-btn{
+    padding: 12px 64px;
+    background-color: #1fb31a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.main{
+    height: 34px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.main a{
+font-weight: 400;
+font-size: 14px;
+color: #034c9b;
+margin-left: 20px;
 }
